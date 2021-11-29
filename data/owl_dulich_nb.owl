@@ -843,14 +843,36 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH1VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH1VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội đền Nguyễn Công Trứ"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL1LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH1T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH10",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH10VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH10VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ Hội đền Đức Thánh Nguyễn"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL6LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH10T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH10T",
@@ -873,8 +895,19 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH11",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH11VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH11VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội đền Thái Vi"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH11LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH11T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH11LC",
@@ -903,8 +936,19 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH12",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH12VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH12VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội Kỳ Phúc đình Cam Giá"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH12LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH12T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH12LC",
@@ -933,8 +977,17 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH13",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH13VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội làng Yên Vệ"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH13LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH13T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH13LC",
@@ -975,8 +1028,19 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH2VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH2VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội chùa Bái Đính"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL12LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH2T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH2T",
@@ -999,8 +1063,19 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH3VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH3VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội Hoa Lư"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL20LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH3T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH3T",
@@ -1023,11 +1098,20 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH4VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenKhac" : [ {
     "@value" : "Thánh Quý Minh Đại Vương"
   } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội Tràng An"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL3LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH4T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH4T",
@@ -1044,8 +1128,19 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH5",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH5VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH5VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Trẩy hội trên đất Cố đô"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL4LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH5T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH5T",
@@ -1068,11 +1163,20 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH6",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH6VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenKhac" : [ {
     "@value" : "Lễ hội Hoa Lư"
   } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội Trường Yên"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL20LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH6T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH6T",
@@ -1089,8 +1193,19 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH7",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH7VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH7VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội Báo Bản Nộn Khê"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH7LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH7T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH7LC",
@@ -1119,8 +1234,19 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH8",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH8VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH8VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội đền La"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH8LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH8T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH8LC",
@@ -1149,8 +1275,19 @@
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH9",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi" ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#baoGom" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH9VC"
+  }, {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH9VH"
+  } ],
   "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi" : [ {
     "@value" : "Lễ hội chùa Địch Lộng"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucTai" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL16LC"
+  } ],
+  "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#toChucVao" : [ {
+    "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH9T"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH9T",
