@@ -1,4 +1,3 @@
-import re
 from dlbase import DLBase
 from entity import ServiceResult
 
@@ -86,6 +85,18 @@ class BLBase:
                 return self.notFind()
         elif type == 13:
             data = dl.getSuggestTour(value)
+            if len(data) > 0:
+                return self.sendResult(data)
+            else:
+                return self.notFind()
+        elif type == 14:
+            data = dl.getInfoRestaurant(value)
+            if len(data) > 0:
+                return self.sendResult(data)
+            else:
+                return self.notFind()
+        elif type == 15:
+            data = dl.getInfoHotel(value)
             if len(data) > 0:
                 return self.sendResult(data)
             else:

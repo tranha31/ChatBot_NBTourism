@@ -33,19 +33,19 @@
             <div class="chat-header">
                 <div id="close-btn" class="close">x</div>
             </div>
-            <div class="chat-content">
-                <div class="send bot-send">
+            <div class="chat-content" id="chat-content">
+                <!-- <div class="send bot-send">
                     <p>Hello belo balo lhhkkhkhk jkhka </p>
                 </div>
 
                 <div class="send user-send">
                     <p>jkhk khk k k khkklhklhklh khkkh </p>
-                </div>
+                </div> -->
 
             </div>
             <div class="chat-footer">
-                <input type="text">
-                <div></div>
+                <input type="text" id="input-send-chat">
+                <div id="btn-send-chat"></div>
             </div>
         </div>
     </body>

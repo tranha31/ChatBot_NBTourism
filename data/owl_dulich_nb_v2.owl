@@ -94,6 +94,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#ganDanhLam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#ganDanhLam">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DanhLam"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#hoatDongVC -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#hoatDongVC">
@@ -159,6 +168,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#giaKhachSan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#giaKhachSan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#lichTrinhBuoiChieu -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#lichTrinhBuoiChieu">
@@ -172,6 +190,15 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#lichTrinhBuoiSang">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#linkKhachSan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#linkKhachSan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -267,10 +294,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenKhachSan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenKhachSan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenLeHoi">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenNhaHang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#tenNhaHang">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -316,6 +361,35 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#thongTinGoi">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#ChiPhi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#thuocHuyen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#thuocHuyen">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#viTriKhachSan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#viTriKhachSan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#viTriNhaHang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#viTriNhaHang">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -384,6 +458,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+    
+
+
     <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LeHoi"/>
@@ -399,6 +479,12 @@
     <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#MucDich -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#MucDich"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
     
 
 
@@ -445,6 +531,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL10LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">núi Non Nước - thành phố Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -464,6 +551,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL11LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Quang Thiện, huyện Kim Sơn, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim Sơn</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -482,6 +570,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL12LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Gia Sinh, huyện Gia Viễn, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gia Viễn</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -500,6 +589,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL13LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thôn Vân Trình, xã Thượng Hoà, huyện Nho Quan, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nho Quan</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -518,6 +608,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL14LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phường Nam Sơn, thành phố Tam Điệp, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tam Điệp</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -536,6 +627,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL15LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Gia Thanh, huyện Gia Viễn, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gia Viễn</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -554,6 +646,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL16LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huyện Gia Viễn, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gia Viễn</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -572,6 +665,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL17LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Ninh Hải, huyện Hoa Lư, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -590,6 +684,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL18LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thị trấn Phát Diệm, huyện Kim Sơn, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim Sơn</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -608,6 +703,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL19LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim Sơn, Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim Sơn</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -627,6 +723,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL1LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thôn Đam Khê, xã Ninh Hải, huyện Hoa Lư, Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -645,6 +742,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL20LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Trường Yên- Hoa Lư- Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -663,6 +761,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL21LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thôn Trường Yên Hạ, xã Trường Yên, huyện Hoa Lư, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -681,6 +780,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL22LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thôn Văn Lâm, xã Ninh Hải, huyện Hoa Lư, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -708,6 +808,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL24LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thôn Chi Phong, xã Trường Yên, huyện Hoa Lư, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -726,6 +827,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL25LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thôn Chi Phong, xã Trường Yên, huyện Hoa Lư, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -744,6 +846,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL26LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thôn Đàm Khê, xã Ninh Haỉ, huyện Hoa Lư, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -762,6 +865,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL28LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 Lê Đại Hành, Vân Gia, Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -780,6 +884,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL29LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thôn Khê Đầu Hạ, xã Ninh Xuân, huyện Hoa Lư, Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -798,6 +903,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL2LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Gia Hưng - Gia Viễn - Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gia Viễn</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -825,6 +931,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL31LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -843,6 +950,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL32LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">địa phận của 3 tỉnh là Thanh Hóa, Hòa Bình và Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nho Quan</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -870,6 +978,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL34LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Yên Đồng và Yên Thái, huyện Yên Mô tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yên Mô</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -906,6 +1015,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL3LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quần thể danh thắng Tràng An</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -924,6 +1034,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL4LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -942,6 +1053,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL5LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nằm giáp ranh giữa 3 xã Phú Lộc, Phú Long và Kỳ Phú, huyện Nho Quan</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nho Quan</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -960,6 +1072,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL6LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Gia Thắng, Gia Tiến huyện Gia Viễn, Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gia Viễn</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -978,6 +1091,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL7LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngã ba sông Vân với sông Đáy, ở giữa cầu Non Nước và cầu Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -996,6 +1110,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL8LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Trường Yên, huyện Hoa Lư, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -1014,6 +1129,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL9LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khu du lịch sinh thái Tràng An</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -1194,7 +1310,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DanhLam"/>
         <coDacDiem rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL23FE"/>
         <coViTriTai rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL3LC"/>
-        <tenDanhLam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khu du lịch sinh thái vườn chim Thung Nham</tenDanhLam>
+        <tenDanhLam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thung Nham</tenDanhLam>
     </owl:NamedIndividual>
     
 
@@ -1294,7 +1410,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DanhLam"/>
         <coDacDiem rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL32FE"/>
         <coViTriTai rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL32LC"/>
-        <tenDanhLam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vườn quốc gia Cúc Phương</tenDanhLam>
+        <tenDanhLam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cúc Phương</tenDanhLam>
     </owl:NamedIndividual>
     
 
@@ -1316,7 +1432,18 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DanhLam"/>
         <coDacDiem rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL34FE"/>
         <coViTriTai rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL34LC"/>
-        <tenDanhLam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khu du lịch sinh thái hồ Đồng Thái</tenDanhLam>
+        <tenDanhLam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hồ Đồng Thái</tenDanhLam>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DanhLam35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DanhLam35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DanhLam"/>
+        <coDacDiem rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL4FE"/>
+        <coViTriTai rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL4LC"/>
+        <tenDanhLam>Tràng An</tenDanhLam>
     </owl:NamedIndividual>
     
 
@@ -1384,6 +1511,201 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
         <coDacDiem rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL9FE"/>
         <coViTriTai rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DL9LC"/>
         <tenDanhLam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phủ Đột</tenDanhLam>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">800000 - 1500000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bit.ly/3HhDI61</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Little Tam Coc</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đam Khuê Ngoài, Ninh Hải, Hoa Lư, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400000 - 900000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.booking.com/hotel/vn/lavender-homstay.vi.html</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tam Coc Lavender Homstay</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tam Cốc, Ninh Hải, Hoa Lư, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400000 - 700000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bit.ly/3ptJdIF</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninh Binh Palm Homestay</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tam Cốc, Ninh Hải, Hoa Lư, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1700000 - 5000000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.booking.com/hotel/vn/emeralda-ninh-binh-resort-and-spa.vi.html</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emeralda Resort Ninh Bình</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gia Viễn</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Làng Tập Ninh, xã Gia Vân, huyện Gia Viễn, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1500000 - 4000000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://hiddencharmresort.com/</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninh Binh Hidden Charm Hotel and Resort</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Số 9, Trung tâm du lịch Tam Cốc Bích Động, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">800000 - 3000000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bit.ly/3psvQZe</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bái Đính Garden Resort &amp; Spa</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gia Viễn</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thôn 5, khu vực chùa Bái Đính, xã Gia Sinh, Gia Viễn, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">450000 - 1000000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bit.ly/3HagxKM</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For You Homestay</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">479 B, Trường Yên, Hoa Lư, Ninh Bình, Việt Nam</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">600000 - 2000000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.baidinhhotel.com/vn/</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bai Dinh Hotel</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gia Viễn</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chùa Bái Đính, xã Gia Sinh, Huyện Gia Viễn, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS09">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500000 - 2000000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bit.ly/3eFYiAR</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hang Múa Ecolodge Ninh Bình</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thôn Khê Hạ, Ninh Xuân, Huyện Hoa Lư, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000000 - 3000000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.booking.com/hotel/vn/ninh-binh-legend.vi.html</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninh Bình Legend Hotel</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">177 Lê Thái Tổ, Xuân Thành, Khu biệt thự, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1000000 - 3000000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bit.ly/3qtekDo</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Reed Hotel Ninh Binh</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đinh Điền, Đông Thành, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">300000 - 1000000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.agoda.com/queen-hotel-ninh-binh/hotel/ninh-binh-vn.html?cid=1844104</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Queen Hotel Ninh Bình</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 Hoàng Hoa Thám, phường Thanh Bình, TP. Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400000 - 600000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bit.ly/3myfUmx</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tam Coc Mountain View Homestay</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Văn Lâm, Ninh Hải, Hoa Lư, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">500000 - 800000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.booking.com/hotel/vn/trang-an-river-view-homestay.vi.html</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trang An River View Homestay</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Làng Tràng An, Hoa Lư, Ninh Bình</viTriKhachSan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KS15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#KhachSan"/>
+        <giaKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">600000 - 1500000</giaKhachSan>
+        <linkKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bit.ly/3mzrFZD</linkKhachSan>
+        <tenKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tam Coc Wonderland Bungalow</tenKhachSan>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriKhachSan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thôn Văn Lâm, Xã Ninh Hải, Huyện Hoa Lư, Ninh Bình</viTriKhachSan>
     </owl:NamedIndividual>
     
 
@@ -1612,6 +1934,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH11LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thôn Văn Lâm, xã Ninh Hải, huyện Hoa Lư, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -1639,7 +1962,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH11VC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#HoatDongVuiChoi"/>
-        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hội của đền Thái Vi thường tổ chức các trò chơi dân gian rất hấp dẫn, có thể kể đến như: Trò nấu cơm thi, trò đua thuyền rồng, hội diễn chèo, tổ tôm điếm, cờ bỏi, thi đu quay, đu giật, kéo co, thi múa rồng, múa lân… Tất cả các dòng người từ khắp nơi tụ hội, ai ai cũng đắm mình trong bầu không khí linh thiêng của lễ hội và cái huyên náo, sôi động của các trò chơi dân gian thú vị. Tiếng trống, tiếng chiêng rộn ràng hoà cùng những làn điệu ca trù mượt mà khiến ai đã từng đặt chân đến đất này sẽ không thể quên được một vùng non nước hữu tình cũng như là một lễ hội cổ truyền vô cùng đặc sắc trên dải đất Cố đô.</noiDungHoatDong>
+        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hội của đền Thái Vi thường tổ chức các trò chơi dân gian rất hấp dẫn, có thể kể đến như: Trò nấu cơm thi, trò đua thuyền rồng, hội diễn chèo, tổ tôm điếm, cờ bỏi, thi đu quay, đu giật, kéo co, thi múa rồng, múa lân…</noiDungHoatDong>
     </owl:NamedIndividual>
     
 
@@ -1675,6 +1998,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH12LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Ninh Khánh, huyện Hoa Lư, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -1736,6 +2060,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH13LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">làng Yên Vệ, xã Khánh Phú, huyện Yên Khánh, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yên Khánh</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -1763,7 +2088,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH13VH">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#HoatDongVanHoa"/>
-        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phần lễ bắt đầu từ nghi thức tế thánh, người dân trong làng cùng du khách đổ về đền Thượng. Nghi thức tế thánh được tổ chức rất công phu bài bản, không khí trầm mặc, tôn thêm vẻ linh thiêng, oai nghiêm của ngôi đền. Nhưng điều níu kéo du khách nhất vẫn là phần hội diễn ra sau khi tế thánh, nổi bật là thi đấu vật. Trước khoảng sân rộng hơn 60 m2 ngay trước cửa đền Thượng, được người dân trong làng phân công cày bừa tơi, thật kỹ từ trước tết, xung quanh đóng dóng tre vuông vức. Phía tây phần sân, một bên giành cho các vị tiên chỉ và quan viên ngồi. Phía đối diện giành cho các vị bô lão trong làng xã và quan khách. Vị giám khảo ngồi ở vị trí thích hợp để có thể chấm điểm công tâm cho các thí sinh. Cuộc đấu vật diễn ra rất kịch tính nhưng cũng rất vui bởi ai tham gia cũng đều mang tinh thần giao lưu, vui vẻ. Lễ hội làng Yên Vệ là một lễ hội văn hóa truyền thống của tỉnh Ninh Bình. Lễ hội này đã có từ rất lâu, được người dân gìn giữ và phát huy qua biết bao thế hệ. Cũng chính vì thế, mỗi dịp đầu xuân lại có rất nhiều người đổ về đây để xem hội.</noiDungHoatDong>
+        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phần lễ bắt đầu từ nghi thức tế thánh, người dân trong làng cùng du khách đổ về đền Thượng. Nghi thức tế thánh được tổ chức rất công phu bài bản, không khí trầm mặc, tôn thêm vẻ linh thiêng, oai nghiêm của ngôi đền. Nhưng điều níu kéo du khách nhất vẫn là phần hội diễn ra sau khi tế thánh, nổi bật là thi đấu vật. Trước khoảng sân rộng hơn 60 m2 ngay trước cửa đền Thượng, được người dân trong làng phân công cày bừa tơi, thật kỹ từ trước tết, xung quanh đóng dóng tre vuông vức. Phía tây phần sân, một bên giành cho các vị tiên chỉ và quan viên ngồi. Phía đối diện giành cho các vị bô lão trong làng xã và quan khách. Vị giám khảo ngồi ở vị trí thích hợp để có thể chấm điểm công tâm cho các thí sinh. Cuộc đấu vật diễn ra rất kịch tính nhưng cũng rất vui bởi ai tham gia cũng đều mang tinh thần giao lưu, vui vẻ.</noiDungHoatDong>
     </owl:NamedIndividual>
     
 
@@ -1899,7 +2224,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH3VC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#HoatDongVuiChoi"/>
-        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phần Hội với các trò chơi dân gian: Tục hèm – Cờ lau tập trận;  Kéo chữ Thái Bình. Cuộc đời và sự nghiệp của vua Đinh Tiên Hoàng đã được tái hiện qua hai nội dung có tính chất tiêu biểu, thuộc hai giai đoạn: tuổi ấu thơ (tập trận cờ lau) và đến giai đoạn bình định sơn hà (kéo chữ Thái Bình)  Tục hèm – Cờ lau tập trận: Là một tiết mục diễn xướng gợi nhớ về thời niên thiếu của vua Đinh Tiên Hoàng. Tuổi ấu thơ chăn trâu cùng đám bạn chơi trò trận giả, nhờ đó mà đúc rút kinh nghiệm để chiến thắng dẹp loạn 12 sứ quân, thống nhất đất nước và lên ngôi hoàng đế.  Kéo chữ Thái Bình: Năm 970 vua Đinh Tiên Hoàng lấy niên hiệu là Thái Bình với mong ước nhân dân được hưởng cảnh thái bình, ấm no, hạnh phúc. Kéo chữ Thái Bình là một tiết mục đặc sắc mang đậm tính chất sinh hoạt văn hóa – tín ngưỡng. Đây là trò diễn nghi thức trò chơi dân gian. Đội quân kéo chữ gồm 50 - 60 người mặc đồng phục dàn thành chữ Thái Bình. Một số hội thi: Thi bơi chả, đấu vật tưởng nhớ đến việc vua Đinh tuyển chọn quân đội và luyện tập thủy quân. Ngoài ra còn có nhiều hoạt động khác như: Thi đấu cờ tướng, chọi gà, nấu ăn… góp phần tạo nên không khí vui nhộn, hấp dẫn, thu hút sự quan tâm của đông đảo quần chúng nhân dân. Giá trị lịch sử của Lễ hội Hoa Lư thể hiện qua việc tái hiện lại cuộc đời và sự nghiệp của đức vua Đinh Tiên Hoàng, từ thuở thiếu thời nuôi chí lớn cờ lau tập trận đến khi dựng cờ khởi nghĩa bình thập nhị sứ quân, xưng Đế gây nền độc lập, đặt nền móng xây dựng chế độ phong kiến trung ương tập quyền để ngày ấy nước Đại Cồ Việt sánh ngang Bắc Tống. Các nghi lễ trong Lễ hội đã thể hiện đạo lý “uống nước nhớ nguồn” lòng biết ơn sâu sắc của dân tộc ta. Giá trị văn hóa của lễ hội là một nghi lễ chung của cộng đồng, một nghi lễ hết sức quan trọng trong đời sống văn hóa được thể hiện thông qua sinh hoạt tín ngưỡng tâm linh và các loại hình diễn xướng dân gian, nghệ thuật ngôn từ…. mang tính cố kết cộng đồng có vai trò đặc biệt trong đời sống tinh thần, đem lại những giá trị tích cực và là niềm tự hào của người dân vùng đất Cố đô Hoa Lư</noiDungHoatDong>
+        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phần Hội với các trò chơi dân gian: Tục hèm – Cờ lau tập trận;  Kéo chữ Thái Bình.. Đây là trò diễn nghi thức trò chơi dân gian. Đội quân kéo chữ gồm 50 - 60 người mặc đồng phục dàn thành chữ Thái Bình. Một số hội thi: Thi bơi chả, đấu vật tưởng nhớ đến việc vua Đinh tuyển chọn quân đội và luyện tập thủy quân. Ngoài ra còn có nhiều hoạt động khác như: Thi đấu cờ tướng, chọi gà, nấu ăn… góp phần tạo nên không khí vui nhộn, hấp dẫn, thu hút sự quan tâm của đông đảo quần chúng nhân dân.</noiDungHoatDong>
     </owl:NamedIndividual>
     
 
@@ -1952,7 +2277,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH4VH">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#HoatDongVanHoa"/>
-        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đoàn rước hơn 100 người khiêng kiệu và rước bài vị tế Đức thánh Quý Minh Đại Vương cùng hàng nghìn du khách trên khoảng 1.000 chiếc đò bắt đầu vào cuộc rước tạo nên một không khí lễ hội vừa trang nghiêm, vừa sôi động. Xuất phát từ bến đò, đoàn rước sẽ vượt qua 5km đường thủy, xuyên qua 11 hang động trên dòng sông Sào Khê. Sau chừng một tiếng diễu hành trên mặt nước, đoàn rước sẽ được chia làm hai, một nửa tiếp tục hành trình dưới sông, nửa còn lại lên bờ vượt qua 3 quả núi với chiều dài khoảng 3km để đến đền Nội Lâm cử hành các nghi thức tế lễ… Trong suốt hành trình rước kiệu tiến về đền Trần để tham dự lễ hội, du khách được thả mình vào không gian thiên nhiên, chiêm ngưỡng khung cảnh nên thơ, trữ tình với những thung nước trong xanh, những hang động lấp lánh ánh nước, ánh nhũ, thư thái ngắm nhìn từng đàn cá bơi lội tung tăng dưới những dải rêu xanh, những thảm thực vật đa màu sắc và hoà cùng âm vang của tiếng mái chèo khua nhẹ trên sông. Qua những hang động, thung nước mênh mông xanh biếc, đoàn thuyền dừng lại ở bến đò đền Trần. Lúc này, du khách sẽ tiếp tục hành trình bằng hình thức leo núi để đến khu vực đền Trần. Đường núi dốc, hẹp, lại đông người nhưng du khách sẽ cảm thấy vô cùng sảng khoái, nhẹ nhõm bởi khung cảnh nên thơ, trữ tình của Tràng An. Đền Trần nằm uy nghi trên ngọn núi cao - nơi tôn thờ Đức thánh Quý Minh Đại Vương - từ lâu đã trở thành ngôi đền nổi tiếng linh thiêng khắp xa gần. Đền được vua Đinh Tiên Hoàng xây dựng vào thế kỷ thứ X với mong muốn mượn uy danh của Thánh để trấn trạch theo 4 hướng Đông - Tây - Nam - Bắc. Ngôi đền cũ bằng gỗ do Đinh Tiên Hoàng đế xây dựng đã đổ nát và nhà Trần cho xây dựng lại bằng các cột đá rất nổi tiếng còn lại nguyên vẹn cho đến ngày nay và từ đó được nhân dân quen gọi là đền Trần vì được xây dựng lại từ thời nhà Trần. Đền Trần nằm giữa một vùng sơn thủy hữu tình thuộc Khu du lịch sinh thái Tràng An. Đền có 4 cột đá được trạm khắc bộ tứ linh (long, ly, quy, phượng) hết sức độc đáo. Tham gia lễ hội, du khách không chỉ được chiêm ngưỡng vẻ đẹp độc đáo của Tràng An &quot;Núi là thành, sông là đường, hang động là cung điện”, mà còn thấy hào hứng, thú vị bởi đường đi - lối về trong một hành trình tham gia lễ hội không hề lặp lại. Tất cả tạo cho du khách một nét tươi mới, khí thế, mê đắm như được lạc vào nơi “bồng lai tiên cảnh” để trân trọng, tự hào với quá khứ của cha ông và thêm yêu quý, giữ gìn những gì thiên nhiên ban tặng … Những ai đã tham gia Lễ hội Tràng An (Đức thánh Quý Minh Đại Vương) cũng như từng đến thăm Quần thể danh thắng Tràng An đều không thể quên một lễ hội truyền thống độc đáo, riêng biệt và không khỏi ngưỡng mộ trước vẻ đẹp kỳ bí của thiên nhiên đã ban tặng cho mảnh đất sinh vua sinh thánh này…</noiDungHoatDong>
+        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đoàn rước hơn 100 người khiêng kiệu và rước bài vị tế Đức thánh Quý Minh Đại Vương cùng hàng nghìn du khách trên khoảng 1.000 chiếc đò bắt đầu vào cuộc rước tạo nên một không khí lễ hội vừa trang nghiêm, vừa sôi động. Xuất phát từ bến đò, đoàn rước sẽ vượt qua 5km đường thủy, xuyên qua 11 hang động trên dòng sông Sào Khê. Sau chừng một tiếng diễu hành trên mặt nước, đoàn rước sẽ được chia làm hai, một nửa tiếp tục hành trình dưới sông, nửa còn lại lên bờ vượt qua 3 quả núi với chiều dài khoảng 3km để đến đền Nội Lâm cử hành các nghi thức tế lễ…</noiDungHoatDong>
     </owl:NamedIndividual>
     
 
@@ -1997,7 +2322,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH5VC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#HoatDongVuiChoi"/>
-        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phần hội có tổ chức các trò chơi dân gian kéo co, cờ 32 quân, chọi gà, thi bóng chuyền, bóng đá.   Lễ hội đền Thái Vi Đền Thái Vi ở thôn Văn Lâm, xã Ninh Hải, huyện Hoa Lư, tỉnh Ninh Bình. Đền thờ 4 vị vua đời Trần là Trần Thái Tông, Trần Thánh Tông, Trần Nhân Tông, Trần Anh Tông và Hiển Từ Hoàng Thái Hậu.  Đây là lễ hội lớn nhất trong năm của nhân dân Ninh Hải để tưởng nhớ công ơn của các vị vua Trần đặc biệt là vua Trần Thái Tông người đã có công chiêu dân lập ấp ở xã Ninh Hải.  Lễ hội thường được diễn ra từ ngày 14/3 đến hết ngày 16/3 Âm lịch, chính hội là ngày rằm tháng ba, cứ 3 năm một lần, nhân dân trong vùng lại tổ chức hội lớn (hội tổng).  Lễ hội gồm hai phần là phần lễ và phần hội. Phần lễ bao gồm: Lễ rước kiệu, rước đuốc, lễ tế. Phần hội thường tổ chức các trò chơi dân gian rất hấp dẫn, có thể kể đến như: Trò nấu cơm thi, trò đua thuyền rồng, hội diễn chèo, tổ tôm điếm, cờ bỏi, thi đu quay, đu giật, kéo co, thi múa rồng, múa lân…</noiDungHoatDong>
+        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phần hội có tổ chức các trò chơi dân gian kéo co, cờ 32 quân, chọi gà, thi bóng chuyền, bóng đá. Trò nấu cơm thi, trò đua thuyền rồng, hội diễn chèo, tổ tôm điếm, cờ bỏi, thi đu quay, đu giật, kéo co, thi múa rồng, múa lân…</noiDungHoatDong>
     </owl:NamedIndividual>
     
 
@@ -2077,6 +2402,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH7LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xã Yên Từ, Yên Mô, Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yên Mô</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -2104,7 +2430,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH7VC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#HoatDongVuiChoi"/>
-        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phần hội sôi động với các tiết mục: múa rồng, múa lân, đánh cờ, võ vật, tổ tôm và các hoạt động thể dục thể thao. Một nét đặc sắc mà lễ hội Báo Bản ở Nộn Khê còn giữ được đó là hai phiên chợ đêm vào tối ngày 12 và 13 tháng Giêng thu hút hàng nghìn người về dự với nhiều món ăn dân dã mang đậm hương vị quê hương như : bánh đúc, bánh gai, bánh quấn, bún riêu, bún ốc… Đến với lễ hội Báo Bản Nộn Khê, du khách sẽ được thưởng thức màn trình diễn những bài thơ ca do chính những người dân ở đây sáng tác nên. Với những người con đi làm ăn xa không về được cũng gửi thơ về để tham gia. Lần lượt những bài thơ được ngâm lên hoặc chuyển thành các làn điệu dân ca để hát. Dạ hội văn nghệ “tiếng hát quê hương” được diễn ra vào đêm ngày 13 tháng giêng hằng năm quy tụ rất nhiều bài thơ đặc sắc. Lễ hội Báo Bản được tiến hành vừa nghiêm cẩn, linh thiêng, vừa rộn ràng, ấm áp. Sau những ngày lễ hội, người dân Nộn Khê lại phấn chấn bước vào một mùa làm ăn mới với niềm mong ước “nhân khang vật thịnh” hơn năm trước.</noiDungHoatDong>
+        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phần hội sôi động với các tiết mục: múa rồng, múa lân, đánh cờ, võ vật, tổ tôm và các hoạt động thể dục thể thao. Một nét đặc sắc mà lễ hội Báo Bản ở Nộn Khê còn giữ được đó là hai phiên chợ đêm vào tối ngày 12 và 13 tháng Giêng thu hút hàng nghìn người về dự với nhiều món ăn dân dã mang đậm hương vị quê hương như : bánh đúc, bánh gai, bánh quấn, bún riêu, bún ốc…</noiDungHoatDong>
     </owl:NamedIndividual>
     
 
@@ -2140,6 +2466,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH8LC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DiaDiem"/>
         <tenDiaDiem rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thôn La Phù, xã Yên Thành, huyện Yên Mô, tỉnh Ninh Bình</tenDiaDiem>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yên Mô</thuocHuyen>
     </owl:NamedIndividual>
     
 
@@ -2167,7 +2494,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LH8VC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#HoatDongVuiChoi"/>
-        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Những trò vui dân gian như đánh đu, đánh cờ, múa hát, kéo chữ với những tiết mục rất độc đáo. Có một điểm đặc biệt là hội có tục lệ dâng “xôi Vựng”. Một loại xôi làm từ gạo nếp trắng và thơm nhất. Ở đây, từng làng sẽ tham dự thi xôi và làm đồ cúng. Xôi Vựng là thứ quà để dâng lên thánh thần nên khi chọn được loại gạo nếp thơm ngon nhất thì gạo nếp phải được vo và đồ bằng nước giếng của thôn Thượng Phường có tên gọi là giếng Me. Các thôn khác phải cử người về giếng Me từ ngày hôm trước để xin nước ngâm gạo. Người dân nơi đây cho rằng giếng Me trong suốt và tinh khiết, nấu xôi rất dẻo và thơm để tế thánh thể hiện tấm lòng thành kính của mình. Lễ hội đền La là một nét đẹp trong văn hóa tín ngưỡng của người dân ở thôn La Phù. Lễ hội là dịp thể hiện đạo lý uống nước nhớ nguồn, bày tỏ lòng thành kính với những bậc tiền nhân. Với phần lễ và phần hội độc đáo, từ lâu nơi đây đã thu hút rất nhiều du khách thập phương tìm về với lễ hội này.</noiDungHoatDong>
+        <noiDungHoatDong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Những trò vui dân gian như đánh đu, đánh cờ, múa hát, kéo chữ với những tiết mục rất độc đáo. Có một điểm đặc biệt là hội có tục lệ dâng “xôi Vựng”. Một loại xôi làm từ gạo nếp trắng và thơm nhất. Ở đây, từng làng sẽ tham dự thi xôi và làm đồ cúng. Xôi Vựng là thứ quà để dâng lên thánh thần nên khi chọn được loại gạo nếp thơm ngon nhất thì gạo nếp phải được vo và đồ bằng nước giếng của thôn Thượng Phường có tên gọi là giếng Me. Các thôn khác phải cử người về giếng Me từ ngày hôm trước để xin nước ngâm gạo. Người dân nơi đây cho rằng giếng Me trong suốt và tinh khiết, nấu xôi rất dẻo và thơm để tế thánh thể hiện tấm lòng thành kính của mình.</noiDungHoatDong>
     </owl:NamedIndividual>
     
 
@@ -2235,11 +2562,231 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     
 
 
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Vũ Bảo</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">số 37 Nguyễn Huệ, Nam Bình, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miến lươn bà Phấn</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đường Trần Hưng Đạo, Thành phố Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thang Long Restaurant</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thôn Chi Phong, Xã Trường Yên, Huyện Hoa Lư</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lẩu dê Trương Định</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">số 29 ngõ 458 Nguyễn Huệ, Nam Bình, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quán ngon Ninh Bình bún chả quạt</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">số 7 Phạm Hồng Thái, Phố 3 Vân Giang, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quán ngon Ninh Bình bánh cuốn hấp thịt</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">số 15 Vân Giang, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Cúc Phương</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nho Quan</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cúc Phương, Nho Quan, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Hoàng Sa - thịt chó - thỏ - mèo</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">số 168 Phạm Thận Duật, ngõ 981 Trung Sơn, Bích Đào, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH09">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Dũng Phố Núi</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ninh Xuân, Hoa Lư, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Thanh Lợi</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phố 8, gần trường THPT Chuyên Lương Văn Tụy</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Quốc Quân</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trục đường Bái Đính - Tràng An</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kem sôi Thanh Hằng</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">đường Lương Văn Tụy, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quán ngon Ninh Bình chân gà nướng phố 8</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gần Trường THPT Chuyên Lương Văn Tụy, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thịt xiên nướng Đức Trọc</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52 Hoàng Hoa Thám, Thanh Bình, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bánh tôm</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239 Trần Hưng Đạo, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quán thạch dừa</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">690 Nguyễn Công Trứ, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Hoàng Long</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">số 10, đường Tràng An, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Hoàng Giang</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoa Lư</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hang Cá, Trường Yên, Hoa Lư</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Đức Dê Ninh Bình</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thành phố Ninh Bình</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446 Nguyễn Huệ, Ninh Bình</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NH20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#NhaHang"/>
+        <tenNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhà hàng Ba Cửa</tenNhaHang>
+        <thuocHuyen rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trường Yên</thuocHuyen>
+        <viTriNhaHang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trường An, Hoa Lư, Trường Yên</viTriNhaHang>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T1C -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T1C">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#DieuKien"/>
-        <noiDungDieuKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* Cần đặt tour trước 01 ngày &amp; trước 21h00
+        <noiDungDieuKien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* Cần đặt tour trước 01 ngày &amp; trước 21h00&lt;br&gt;
 * Trong trường hợp khách không có mặt như đăng ký và/hoặc hủy tour trong vòng 02 tiếng trước giờ khởi hành, khách sẽ bị tính phí 50% giá tour.</noiDungDieuKien>
     </owl:NamedIndividual>
     
@@ -2271,11 +2818,11 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T1SC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
         <lichTrinhBuoiChieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 13h30: Sau bữa trưa mời Quý khách lên xe quay trở lại cổng vườn. Trên đường về, Quý khách sẽ dừng  chân thăm  Động Người  Xưa để hiểu biết thêm về cội nguồn của dân tộc. Trở về khách sạn, kết thúc chương trình tại khu nghỉ Emeralda Ninh Bình.</lichTrinhBuoiChieu>
-        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h00: Xe đón Quý khách đi thăm vuờn quốc gia Cúc Phương. Cúc Phương là nơi có tầm quan trọng bậc nhất về bảo tồn sinh thái, là nơi còn bảo tồn được rất nhiều loài động vật quý hiếm đang có nguy cơ tuyệt chủng.
+        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h00: Xe đón Quý khách đi thăm vuờn quốc gia Cúc Phương. Cúc Phương là nơi có tầm quan trọng bậc nhất về bảo tồn sinh thái, là nơi còn bảo tồn được rất nhiều loài động vật quý hiếm đang có nguy cơ tuyệt chủng.&lt;br&gt;
  
-* 9h00: Quý khách đi thăm Trung tâm cứu  hộ  động vật Linh Trưởng. Tại đây, Quý khách có cơ hội chứng kiến  tận  mắt  những loài  linh trưởng quý  hiếm của  Việt Nam.
+* 9h00: Quý khách đi thăm Trung tâm cứu  hộ  động vật Linh Trưởng. Tại đây, Quý khách có cơ hội chứng kiến  tận  mắt  những loài  linh trưởng quý  hiếm của  Việt Nam.&lt;br&gt;
  
-* 10h00: Xe đưa Quý khách vào Trung tâm của Vườn Quốc Gia. Đến trung tâm rừng Quý khách sẽ đi bộ khoảng 3-4 km để thăm cây Chò ngàn năm. Đây là tuyến  tham  quan  rất  được ưa  thích  của  rất  nhiều du khách trong và ngoài nước,  thời  gian  đi bộ  là 2 giờ.
+* 10h00: Xe đưa Quý khách vào Trung tâm của Vườn Quốc Gia. Đến trung tâm rừng Quý khách sẽ đi bộ khoảng 3-4 km để thăm cây Chò ngàn năm. Đây là tuyến  tham  quan  rất  được ưa  thích  của  rất  nhiều du khách trong và ngoài nước,  thời  gian  đi bộ  là 2 giờ.&lt;br&gt;
  
 * 12h30: Ăn trưa tại khu trung tâm rừng.</lichTrinhBuoiSang>
     </owl:NamedIndividual>
@@ -2307,7 +2854,7 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T2SC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
         <lichTrinhBuoiChieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 14h00: Đạp xe về khu nghỉ, kết thúc chương trình tour.</lichTrinhBuoiChieu>
-        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h00: Quý khách đi bộ khoảng 500m từ khu nghỉ Emeralda Ninh Bình đến bến thuyền Vân Long. Quý khách xuống thuyền đi thăm Khu Bảo tồn Thiên nhiên Vân Long, khám phá vẻ đẹp hoang sơ và đặc biệt là các loài động  thực  vật  đang  tồn  tại trong  khu bảo  tồn. Quý khách đi thuyền khoảng 1.5 giờ. 
+        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h00: Quý khách đi bộ khoảng 500m từ khu nghỉ Emeralda Ninh Bình đến bến thuyền Vân Long. Quý khách xuống thuyền đi thăm Khu Bảo tồn Thiên nhiên Vân Long, khám phá vẻ đẹp hoang sơ và đặc biệt là các loài động  thực  vật  đang  tồn  tại trong  khu bảo  tồn. Quý khách đi thuyền khoảng 1.5 giờ. &lt;br&gt;
 
 * 10h30: Quý khách bắt đầu đạp xe khoảng 6 km rèn luyện sức khỏe và ngắm cảnh làng quê. Đến nhà dân, gửi xe đạp  ở đó, Quý khách  sẽ tiếp tục  thăm  một  ngôi  đền  cổ, sau  đó  quay  về nơi để  xe thưởng  thức  bữa trưa tại nhà  người dân  địa phương.</lichTrinhBuoiSang>
     </owl:NamedIndividual>
@@ -2338,9 +2885,9 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T3SC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
-        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Quý khách khởi hành từ khu nghỉ Emeralda Ninh Bình đi hang Múa. Hang Múa là một hang nhỏ nhưng có rất nhiều những  câu chuyện hấp dẫn về địa danh này. Từ hang Múa, Quý khách có thể nhìn thấy lối vào khu Tam Cốc. Sau đó, Quý khách sẽ trèo 500 bậc đá lên đỉnh núi để thưởng thức vẻ đẹp của vùng quê và dòng sông Ngô Đồng.
+        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Quý khách khởi hành từ khu nghỉ Emeralda Ninh Bình đi hang Múa. Hang Múa là một hang nhỏ nhưng có rất nhiều những  câu chuyện hấp dẫn về địa danh này. Từ hang Múa, Quý khách có thể nhìn thấy lối vào khu Tam Cốc. Sau đó, Quý khách sẽ trèo 500 bậc đá lên đỉnh núi để thưởng thức vẻ đẹp của vùng quê và dòng sông Ngô Đồng.&lt;br&gt;
 
-* 10h00: Quý khách sẽ khởi hành đi thăm Cố đô Hoa Lư, đây là kinh đô đầu tiên của Việt Nam vào thế kỷ thứ 10. Quý khách sẽ được chiêm ngưỡng kiến trúc cổ kính, với những hoa văn được trạm khắc trên  gỗ, đá mô tả cuộc  sống hàng ngày, những giấc mơ và mong ước về tự do và những  điều tốt đẹp trong cuộc sống.
+* 10h00: Quý khách sẽ khởi hành đi thăm Cố đô Hoa Lư, đây là kinh đô đầu tiên của Việt Nam vào thế kỷ thứ 10. Quý khách sẽ được chiêm ngưỡng kiến trúc cổ kính, với những hoa văn được trạm khắc trên  gỗ, đá mô tả cuộc  sống hàng ngày, những giấc mơ và mong ước về tự do và những  điều tốt đẹp trong cuộc sống.&lt;br&gt;
 
 * 11h00: Kết thúc chương trình tại khu nghỉ Emeralda Ninh Bình.</lichTrinhBuoiSang>
     </owl:NamedIndividual>
@@ -2371,9 +2918,9 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T4SC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
-        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Xe và hướng dẫn viên đón Quý khách tại khu nghỉ Emeralda Ninh Bình đi Tam Cốc. Những chiếc thuyền nhỏ sẽ đưa Quý khách đi dọc sông Ngô Đồng, qua cánh đồng lúa đến Tam Cốc.
+        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Xe và hướng dẫn viên đón Quý khách tại khu nghỉ Emeralda Ninh Bình đi Tam Cốc. Những chiếc thuyền nhỏ sẽ đưa Quý khách đi dọc sông Ngô Đồng, qua cánh đồng lúa đến Tam Cốc.&lt;br&gt;
 
-* 11h00: Quý khách đi bộ qua những dãy núi đá vôi đến Đền Thái Vi, ngôi đền thờ 4 vị Vua đời Trần vào thế kỷ 13. Tại đây Quý khách có thể tận hưởng sự yên bình và chiêm ngưỡng kiểu kiến trúc cổ.
+* 11h00: Quý khách đi bộ qua những dãy núi đá vôi đến Đền Thái Vi, ngôi đền thờ 4 vị Vua đời Trần vào thế kỷ 13. Tại đây Quý khách có thể tận hưởng sự yên bình và chiêm ngưỡng kiểu kiến trúc cổ.&lt;br&gt;
 
 * 11h30: Xe đưa Quý khách về Chùa Bích Động, thăm  chùa  Hạ, chùa  Trung và chùa  Thượng.  Sau đó trở về khu nghỉ Emeralda.</lichTrinhBuoiSang>
     </owl:NamedIndividual>
@@ -2405,8 +2952,8 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T5SC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
         <lichTrinhBuoiChieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 14h00: Xe đưa Quý khách đến Đền Hoa Lư - Cố đô Việt Nam được xây dựng từ thế kỷ 10. Chiêm ngưỡng kiến trúc điêu khắc trên gỗ &amp; đá từ thế kỷ 11 đến thế kỷ 17, khắc họa cuộc sống thường ngày, những giấc mơ &amp; mong ước 1 cuộc sống hòa bình, thịnh vượng.</lichTrinhBuoiChieu>
-        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Xe &amp; hướng dẫn viên đón Quý khách tại khu nghỉ Emeralda Nih Bình đi Tam Cốc. Những chiếc thuyền nhỏ sẽ đưa Quý khách đi dọc sông Ngô Đồng, qua cánh đồng lúa đến Tam Cốc.
-* 11h00: Quý khách đi bộ qua những dãy núi đá vôi đến Đền Thái Vi, ngôi đền thờ 4 vị Vua đời Trần vào thế kỷ 13. Tại đây Quý khách có thể tận hưởng sự yên bình &amp; chiêm ngưỡng kiểu kiến trúc cổ.
+        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Xe &amp; hướng dẫn viên đón Quý khách tại khu nghỉ Emeralda Nih Bình đi Tam Cốc. Những chiếc thuyền nhỏ sẽ đưa Quý khách đi dọc sông Ngô Đồng, qua cánh đồng lúa đến Tam Cốc.&lt;br&gt;
+* 11h00: Quý khách đi bộ qua những dãy núi đá vôi đến Đền Thái Vi, ngôi đền thờ 4 vị Vua đời Trần vào thế kỷ 13. Tại đây Quý khách có thể tận hưởng sự yên bình &amp; chiêm ngưỡng kiểu kiến trúc cổ.&lt;br&gt;
 * 11h30: Xe đưa Quý khách về Chùa Bích Động, thăm chùa Hạ, Trung &amp; chùa Thượng. Ăn trưa tại nhà hàng.</lichTrinhBuoiSang>
     </owl:NamedIndividual>
     
@@ -2436,11 +2983,11 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T6SC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
-        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Quý khách khởi hành từ khu nghỉ Emeralda Ninh Bình đi hang Múa. Hang Múa là một hang nhỏ nhưng có rất nhiều những  câu chuyện hấp dẫn về địa danh này. Từ hang Múa, Quý khách có thể nhìn thấy lối vào khu Tam Cốc. Sau đó, Quý khách sẽ trèo 500 bậc đá lên đỉnh núi để thưởng thức vẻ đẹp của vùng quê và dòng sông Ngô Đồng.
+        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Quý khách khởi hành từ khu nghỉ Emeralda Ninh Bình đi hang Múa. Hang Múa là một hang nhỏ nhưng có rất nhiều những  câu chuyện hấp dẫn về địa danh này. Từ hang Múa, Quý khách có thể nhìn thấy lối vào khu Tam Cốc. Sau đó, Quý khách sẽ trèo 500 bậc đá lên đỉnh núi để thưởng thức vẻ đẹp của vùng quê và dòng sông Ngô Đồng.&lt;br&gt;
 
-* 10:00: Xe và hướng dẫn viên đón Quý khách tại Hang Múa đi Tam Cốc. Những chiếc thuyền nhỏ sẽ đưa Quý khách đi dọc sông Ngô Đồng, qua cánh đồng lúa đến Tam Cốc
+* 10:00: Xe và hướng dẫn viên đón Quý khách tại Hang Múa đi Tam Cốc. Những chiếc thuyền nhỏ sẽ đưa Quý khách đi dọc sông Ngô Đồng, qua cánh đồng lúa đến Tam Cốc.&lt;br&gt;
 
-* 11h30: Quý khách đi bộ qua những dãy núi đá vôi đến Đền Thái Vi, ngôi đền thờ 4 vị Vua đời Trần vào thế kỷ 13. Tại đây Quý khách có thể tận hưởng sự yên bình và chiêm ngưỡng kiểu kiến trúc cổ.
+* 11h30: Quý khách đi bộ qua những dãy núi đá vôi đến Đền Thái Vi, ngôi đền thờ 4 vị Vua đời Trần vào thế kỷ 13. Tại đây Quý khách có thể tận hưởng sự yên bình và chiêm ngưỡng kiểu kiến trúc cổ.&lt;br&gt;
 
 * 12h00: Trở về khu nghỉ Emeralda.</lichTrinhBuoiSang>
     </owl:NamedIndividual>
@@ -2471,10 +3018,10 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T7SC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
-        <lichTrinhBuoiChieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 13h00: Xe đón Quý khách đi thăm cố đô Hoa Lư, môt trong những di tích lịch sử quan trọng của Việt Nam. Nơi đây từng là cố đô đầu tiên của nước Đại Việt thế kỷ thứ 10. Quý khách sẽ thăm hai ngôi đền cổ - Đền Vua Đinh và đền Vua Lê.
+        <lichTrinhBuoiChieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 13h00: Xe đón Quý khách đi thăm cố đô Hoa Lư, môt trong những di tích lịch sử quan trọng của Việt Nam. Nơi đây từng là cố đô đầu tiên của nước Đại Việt thế kỷ thứ 10. Quý khách sẽ thăm hai ngôi đền cổ - Đền Vua Đinh và đền Vua Lê.&lt;br&gt;
 
 *15h00: Xe đón Quý khách đi thăm chùa Bái ĐÍnh, một trong những ngôi chùa lớn nhất Đông Nam Á. Quý khách sẽ có cơ hội chiêm ngưỡng ngôi chùa nhiều kỷ lục nhất Việt Nam.</lichTrinhBuoiChieu>
-        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Quý khách rời khu nghỉ Emeralda Ninh Bình đi thăm khu du lịch sinh thái Tràng An, Di sản văn hóa thiên nhiên thế giới thu hút rất nhiều du khách trong và người nước. Quý khách sẽ đi bằng thuyền sắt nhỏ do người dân địa phương chở đi thăm hệ thống hang động huyền bí của Tràng An như Hang Sáng, Hang Tối, Hang Seo...
+        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Quý khách rời khu nghỉ Emeralda Ninh Bình đi thăm khu du lịch sinh thái Tràng An, Di sản văn hóa thiên nhiên thế giới thu hút rất nhiều du khách trong và người nước. Quý khách sẽ đi bằng thuyền sắt nhỏ do người dân địa phương chở đi thăm hệ thống hang động huyền bí của Tràng An như Hang Sáng, Hang Tối, Hang Seo...&lt;br&gt;
 
 * 12h00: Quý khách ăn trưa tại nhà hàng.</lichTrinhBuoiSang>
     </owl:NamedIndividual>
@@ -2506,9 +3053,9 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T8SC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
         <lichTrinhBuoiChieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 13h00: Quý khách sẽ khởi hành đi thăm Cố đô Hoa Lư, đây là kinh đô đầu tiên của Việt Nam vào thế kỷ thứ 10. Quý khách sẽ được chiêm ngưỡng kiến trúc cổ kính, với những hoa văn được trạm khắc trên  gỗ, đá mô tả cuộc  sống hàng ngày, những giấc mơ và mong ước về tự do và những  điều tốt đẹp trong cuộc sống. Kết thúc chương trình tại khu nghỉ Emeralda Ninh Bình.</lichTrinhBuoiChieu>
-        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Quý khách khởi hành từ khu nghỉ Emeralda Ninh Bình đi hang Múa. Hang Múa là một hang nhỏ nhưng có rất nhiều những  câu chuyện hấp dẫn về địa danh này. Từ hang Múa, Quý khách có thể nhìn thấy lối vào khu Tam Cốc. Sau đó, Quý khách sẽ trèo 500 bậc đá lên đỉnh núi để thưởng thức vẻ đẹp của vùng quê và dòng sông Ngô Đồng.
+        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 8h30: Quý khách khởi hành từ khu nghỉ Emeralda Ninh Bình đi hang Múa. Hang Múa là một hang nhỏ nhưng có rất nhiều những  câu chuyện hấp dẫn về địa danh này. Từ hang Múa, Quý khách có thể nhìn thấy lối vào khu Tam Cốc. Sau đó, Quý khách sẽ trèo 500 bậc đá lên đỉnh núi để thưởng thức vẻ đẹp của vùng quê và dòng sông Ngô Đồng.&lt;br&gt;
  
-* 10h00: Quý khách sẽ du thuyền để khám phá vẻ đẹp huyền bí và hấp dẫn của hệ thống hang động Tràng An bao gồm: hang Ba Giọt, hang Địa Linh, Hang Tối, hang Sáng, hang Ao Trai, hang Sèo…
+* 10h00: Quý khách sẽ du thuyền để khám phá vẻ đẹp huyền bí và hấp dẫn của hệ thống hang động Tràng An bao gồm: hang Ba Giọt, hang Địa Linh, Hang Tối, hang Sáng, hang Ao Trai, hang Sèo…&lt;br&gt;
  
 * 12h00: Quý khách nghỉ ngơi và thưởng thức bữa trưa tại nhà hàng.</lichTrinhBuoiSang>
     </owl:NamedIndividual>
@@ -2539,10 +3086,10 @@ Nguyễn Công Trứ (1778 – 1858) người làng Uy Viễn, huyện Nghi Xuâ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#T9SC">
         <rdf:type rdf:resource="http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#LichTrinh"/>
-        <lichTrinhBuoiChieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 13h00: Xe đưa Quý khách đến bến thuyền Tràng An. Quý khách xuống thuyền và đi khám phá hệ thống hang động và cảnh đẹp  hoang  sơ của Tràng An như: Hang Ba Giọt, Hang Địa Linh, Hang Tối, Hang Sáng, Ao Trai, Hang Seo. Tất cả đã tạo cho Quý khách một cảm giác không gian yên bình sau những ngày làm việc vất vả.
+        <lichTrinhBuoiChieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">* 13h00: Xe đưa Quý khách đến bến thuyền Tràng An. Quý khách xuống thuyền và đi khám phá hệ thống hang động và cảnh đẹp  hoang  sơ của Tràng An như: Hang Ba Giọt, Hang Địa Linh, Hang Tối, Hang Sáng, Ao Trai, Hang Seo. Tất cả đã tạo cho Quý khách một cảm giác không gian yên bình sau những ngày làm việc vất vả.&lt;br&gt;
  
 * 15h00: Xe đón Quý khách từ bến thuyền Tràng An đi thăm Cố đô Hoa Lư, là một địa danh lịch sử rất có ý nghĩa đối với du khách trong nước và nước ngoài. Quý khách sẽ được chiêm ngưỡng kiến trúc cổ kính, với những hoa văn được trạm khắc trên gỗ, đá mô tả cuộc sống hàng ngày, những giấc mơ và mong ước về tự do và những  điều tốt đẹp trong cuộc  sống.</lichTrinhBuoiChieu>
-        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*  8h30: Quý khách khởi hành đi thăm nhà thờ đá Phát Diệm, nổi tiếng với nét kiến trúc đặc biệt. Đó là sự kết hợp khéo léo giữa kiến trúc cổ Phương Đông và kiến trúc nhà thờ đặc trưng của Phương Tây. Người thiết kế là cha Trần Lục, người chưa từng được đào tạo về thiết kế, kiến trúc nhưng đã làm nên một điều vĩ đại.
+        <lichTrinhBuoiSang rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*  8h30: Quý khách khởi hành đi thăm nhà thờ đá Phát Diệm, nổi tiếng với nét kiến trúc đặc biệt. Đó là sự kết hợp khéo léo giữa kiến trúc cổ Phương Đông và kiến trúc nhà thờ đặc trưng của Phương Tây. Người thiết kế là cha Trần Lục, người chưa từng được đào tạo về thiết kế, kiến trúc nhưng đã làm nên một điều vĩ đại.&lt;br&gt;
  
 * 12h00: Quý khách nghỉ ngơi và ăn trưa tại nhà hàng.</lichTrinhBuoiSang>
     </owl:NamedIndividual>

@@ -69,7 +69,7 @@ class DLBase:
         ?c ex:noiDungHoatDong ?cultral.
         OPTIONAL
         {
-            ?x ex:tenKhac ?nameEx.    
+            ?x ex:tenKhac ?nameEx.  
         }
         FILTER(lcase(?name) = \""""+value+"""\" || lcase(?nameEx) = \""""+value+"""\")
         }
@@ -180,7 +180,7 @@ class DLBase:
         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX ex: <http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#>
-        SELECT DISTINCT ?cultral
+        SELECT DISTINCT ?cultral ?activities
         WHERE
         {
         ?x ex:tenLeHoi ?name;
@@ -196,6 +196,7 @@ class DLBase:
         for row in rows:
             d = {}
             d['cultral'] = str(row.cultral)
+            d['activities'] = str(row.activities)
             result.append(d)
         
         query = """PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -216,11 +217,8 @@ class DLBase:
         LIMIT 1
         """
         rows = g.query(query)
-        result = []
         for row in rows:
-            d = {}
-            d['activities'] = str(row.activities)
-            result.append(d)
+            result[0]['activities'] = str(row.activities)
 
         return result
 
@@ -470,5 +468,67 @@ class DLBase:
         for row in rows:
             d = {}
             d['name'] = str(row.name)
+            result.append(d)
+        return result
+
+    ###Lay thong tin nha hang
+    def getInfoRestaurant(self, value):
+        query = """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX ex: <http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#>
+        SELECT DISTINCT ?name ?vitri
+        WHERE
+        {
+        ?x ex:tenDanhLam ?n;
+            ex:coViTriTai ?m.
+        ?m ex:thuocHuyen ?huyen.
+        ?y ex:tenNhaHang ?name;
+            ex:viTriNhaHang ?vitri;
+            ex:thuocHuyen ?huyen.
+        FILTER(regex(lcase(?n),\""""+value+"""\"))
+        }
+        """
+        rows = g.query(query)
+        result = []
+        for row in rows:
+            d = {}
+            d['name'] = str(row.name)
+            d['vitri'] = str(row.vitri)
+            result.append(d)
+        return result
+
+    ###Lay thong tin khach san
+    def getInfoHotel(self, value):
+        query = """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX ex: <http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#>
+        SELECT DISTINCT ?name ?vitri ?gia ?link
+        WHERE
+        {
+        ?x ex:tenDanhLam ?n;
+            ex:coViTriTai ?m.
+        ?m ex:thuocHuyen ?huyen.
+        ?y ex:tenKhachSan ?name;
+            ex:viTriKhachSan ?vitri;
+            ex:giaKhachSan ?gia;
+            ex:linkKhachSan ?link;
+            ex:thuocHuyen ?huyen.
+        FILTER(regex(lcase(?n),\""""+value+"""\"))
+        }
+        """
+        rows = g.query(query)
+        result = []
+        for row in rows:
+            d = {}
+            d['name'] = str(row.name)
+            d['vitri'] = str(row.vitri)
+            d['gia'] = str(row.gia)
+            d['link'] = str(row.link)
             result.append(d)
         return result

@@ -9,7 +9,7 @@
 
 # g.parse(filename, format='xml')
 
-# value = "hoa lư"
+# value = "tam cốc"
 
 # query = """PREFIX owl: <http://www.w3.org/2002/07/owl#>
 #         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -17,19 +17,31 @@
 #         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 #         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 #         PREFIX ex: <http://www.semanticweb.org/taha/ontologies/2021/10/untitled-ontology-3#>
-#         SELECT DISTINCT ?name
+#         SELECT DISTINCT ?name ?vitri ?gia ?link
 #         WHERE
 #         {
-#         ?x ex:tenTour ?name.
-#         FILTER(regex(lcase(?name),\""""+value+"""\"))
+#         ?x ex:tenDanhLam ?n;
+#             ex:coViTriTai ?m.
+#         ?m ex:thuocHuyen ?huyen.
+#         ?y ex:tenKhachSan ?name;
+#             ex:viTriKhachSan ?vitri;
+#             ex:giaKhachSan ?gia;
+#             ex:linkKhachSan ?link;
+#             ex:thuocHuyen ?huyen.
+#         FILTER(lcase(?n) = \""""+value+"""\")
 #         }
 #         """
 # rows = g.query(query)
 # for row in rows:
-#     print(row.name)
+#     print(row.name, row.vitri, row.gia, row.link)
+
+from dlbase import DLBase
 import json
-from blbase import BLBase
 
-bl = BLBase()
+value = "tam cốc"
+dl = DLBase()
+result = dl.getInfoHotel(value)
+result = json.dumps(result, ensure_ascii=False)
 
-print(json.dumps(bl.filter(1, "hoa lư").__dict__, ensure_ascii=False))
+print(result)
+
