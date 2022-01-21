@@ -126,110 +126,112 @@ function excuteRequest(item){
             addBotInbox(content, src);
         }
         else if(intent == "danhLam"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.danhLamM ? item.prediction.entities.$instance.danhLamM : "";
                 callAPIBackend(1, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
         }
         else if(intent == "thongTinLeHoi"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.leHoi ? item.prediction.entities.$instance.leHoi : "";
                 callAPIBackend(2, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
         }
         else if(intent == "hoiVeDiaDiem"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.danhLamM ? item.prediction.entities.$instance.danhLamM : "";
                 callAPIBackend(3, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
         }
         else if(intent == "diaDiemLeHoi"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.leHoi ? item.prediction.entities.$instance.leHoi : "";
                 callAPIBackend(4, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
         }
         else if(intent == "hoiVeHoatDongLeHoi"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.leHoi ? item.prediction.entities.$instance.leHoi : "";
                 callAPIBackend(5, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
             
         }
         else if(intent == "hoiVeMucDichLeHoi"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.leHoi ? item.prediction.entities.$instance.leHoi : "";
                 callAPIBackend(6, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
             
         }
         else if(intent == "hoiVeThoiGianLeHoi"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.leHoi ? item.prediction.entities.$instance.leHoi : "";
                 callAPIBackend(7, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
             
         }
         else if(intent == "hoiVeThongTinTour"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.touRR ? item.prediction.entities.$instance.touRR : "";
                 callAPIBackend(8, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
             
         }
         else if(intent == "hoiVeChiPhi"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.touRR ? item.prediction.entities.$instance.touRR : "";
                 callAPIBackend(9, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
             
         }
         else if(intent == "hoiVeLichTrinhTour"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.touRR ? item.prediction.entities.$instance.touRR : "";
                 callAPIBackend(10, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
         }
         else if(intent == "goiYLeHoi"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 if(item.prediction.entities.$instance.thanGG){
-                    callAPIBackend(11, item.prediction.entities.$instance.thanGG);
+                    var query  = item.prediction.entities.$instance.thanGG;
+                    callAPIBackend(11, query);
                 }
                 else if(item.prediction.entities.$instance.mucDich){
-                    callAPIBackend(12, item.prediction.entities.$instance.mucDich);
+                    query  = item.prediction.entities.$instance.mucDich ;
+                    callAPIBackend(12, query);
                 }
                 else{
-                    cannotUnderStand();
+                    cannotUnderStand(1);
                 }
             }
             else{
@@ -238,31 +240,31 @@ function excuteRequest(item){
             
         }
         else if(intent == "goiYTour"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.danhLamM ? item.prediction.entities.$instance.danhLamM : "";
                 callAPIBackend(13, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
             
         }
         else if(intent == "goiYNhaHang"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.danhLamM ? item.prediction.entities.$instance.danhLamM : "";
                 callAPIBackend(14, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
         }
         else if(intent == "goiYKhachSan"){
-            if(item.prediction.entities){
+            if(Object.keys(item.prediction.entities).length !== 0){
                 var query  = item.prediction.entities.$instance.danhLamM ? item.prediction.entities.$instance.danhLamM : "";
                 callAPIBackend(15, query);
             }
             else{
-                cannotUnderStand();
+                cannotUnderStand(1);
             }
         }
         else{
@@ -274,10 +276,18 @@ function excuteRequest(item){
 /**
  * Không hiểu nội dung hoặc không có kq trả về
  */
-function cannotUnderStand(){
-    var content = ["Rất tiếc, mình không biết câu trả lời :("];
-    var src = '../content/images/sad.png';
-    addBotInbox(content, src);
+function cannotUnderStand(type){
+    if(type){
+        var content = ["Mình đang không hiểu đúng ý bạn. Bạn hãy nhập đúng tên riêng, để mình hiểu rõ hơn"];
+        var src = '../content/images/sad.png';
+        addBotInbox(content, src);
+    }
+    else{
+        var content = ["Rất tiếc, mình không biết câu trả lời :("];
+        var src = '../content/images/sad.png';
+        addBotInbox(content, src);
+    }
+    
 }
 
 /**
@@ -429,13 +439,16 @@ function beforeBindData(type, data){
             }
             break;
         case 11:
+            var content = [];
+            content.push("Danh sách lễ hội bạn có thể tham khảo:");
+            addBotInbox(content, null);
             for(var i=0; i<data.length; i++){
-                var content = []
-                content.push(`Lễ hội: ${data[i].name}`);
+                content = [];
+                var str = `Lễ hội: ${data[i].name}`;
                 if(data[i].nameEx != "None"){
-                    content.push(`Tên khác: ${data[i].nameEx}`);
+                    str = str + `<br>Tên khác: ${data[i].nameEx}`;
                 }
-                content.push(".");
+                content.push(str);
                 addBotInbox(content, null);
             }
             break;
@@ -444,11 +457,12 @@ function beforeBindData(type, data){
             content.push("Danh sách lễ hội bạn có thể tham khảo:");
             addBotInbox(content, null);
             for(var i=0; i<data.length; i++){
-                content = []
-                content.push(`Lễ hội: ${data[i].name}`);
+                content = [];
+                var str = `Lễ hội: ${data[i].name}`;
                 if(data[i].nameEx != "None"){
-                    content.push(`Tên khác: ${data[i].nameEx}`);
+                    str = str + `<br>Tên khác: ${data[i].nameEx}`;
                 }
+                content.push(str);
                 addBotInbox(content, null);
             }
             break;
